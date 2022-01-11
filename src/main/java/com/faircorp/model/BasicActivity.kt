@@ -9,6 +9,7 @@ import android.view.MenuItem
 import com.faircorp.R
 
 open class BasicActivity : AppCompatActivity() {
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.menu, menu)
